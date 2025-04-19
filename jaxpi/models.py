@@ -6,7 +6,7 @@ from flax import jax_utils
 
 import jax.numpy as jnp
 from jax import lax, jit, grad, pmap, random, jacfwd, jacrev
-from jax.tree_util import tree_map
+
 from jax.tree_util import tree_map, tree_reduce, tree_leaves
 
 import optax
